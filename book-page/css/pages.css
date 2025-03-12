@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, rgba(25, 33, 25, 0.156), rgba(84, 101, 85, 0.282)),url('../img/A4.jpg');
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.title{
+    margin: center;
+    padding: 8px;
+    border: 2px solid transparent;
+    margin-top: 80px;
+}
+
+h1{
+    color: cyan; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+}
+
+.message{
+    margin: center;
+    padding: 50px;
+    border: 2px solid transparent;
+    font-size: 30px;
+    color: white;
+}
+
+.message2{
+    margin: center;
+}
+.p{
+    color: pink;
+    padding: 50px;
+    border: 2px solid transparent;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    color: cyan;
+    padding: 8px 12px;
+    border: 1px solid #00ffc8;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+.message ul,li, a:hover{
+    border: 2px solid transparent;
+    margin: 2px;
+    padding: 1px;
+    color: cyan;
+    list-style: none;
+
+}
+.page ul,li, a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+.page{
+    margin-top: 140px;
+}
+.pagination {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: cyan;
+    padding: 8px 12px;
+    border: 1px solid #00ffc8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination a:hover {
+    background-color: black;
+    border-color: cyan;
+}
+.container{
+    width: 100px;
+    margin: auto;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+.content-section {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 8px;
+    scroll-margin-top: 90px;
+}
+#title.content-section {
+    margin-top: 80px;
+    padding: -20px;
+    margin-bottom: -150px;
+}
+#message.content-section {
+    margin-top: 130px;
+    padding: 10px;
+    
+}
+#message.content-section p{
+    background-color: cyan;
+    color: black;
+    font-size: 30px;
+    border: 5px solid black;
+    border-radius: 2px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #33333300;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
